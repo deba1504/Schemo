@@ -12,6 +12,26 @@ app.use(express.urlencoded({ extended: false }))
 const tempelatePath = path.join(__dirname, '../tempelates')
 const publicPath = path.join(__dirname, '../public')
 console.log(publicPath);
+const fs = require('fs');
+const handlebars = require('handlebars');
+
+// Read the Handlebars template file
+const source = fs.readFileSync('tempelates/login.hbs', 'utf8');
+
+// Compile the template to a function
+const template = handlebars.compile(source);
+
+// Define data to pass into the template
+const data = {
+    title: 'My Website',
+    message: 'Hello, World!'
+};
+
+// Execute the template function with data
+const html = template(data);
+
+// Write the compiled HTML to an HTML file
+fs.writeFileSync('docs/index.html', html, 'utf8');
 
 app.set('view engine', 'hbs')
 app.set('views', tempelatePath)
