@@ -1,0 +1,252 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <link rel="stylesheet" href="/css/login.css">
+  <title>SCHEMohome</title>
+</head>
+
+<body>
+
+  <!-- head -->
+
+
+
+
+  <header class="text-gray-400 bg-gray-800 body-font mb-8">
+    <div class="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+        <img src="/images/logo.png" alt="logo..." class="logo" height="75px" , width="75px">
+
+        <span class="ml-3 text-xl">SCHEMO</span>
+      </a>
+      </nav>
+
+    </div>
+  </header>
+
+  <section class="text-gray-600 body-font ">
+    <div class="container px-10 py-12 pb-36 mx-auto flex flex-wrap ">
+      <img src="/images/Group 2028.svg" alt="namste" width="500px" height="500px" class="image">
+      
+      <form action="/login" method="post" style="margin-top: 3cm;" class="lg:w-2/6 md:w-3/2 bg-orange-200 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+      
+        <h2 class="text-black text-2xl font-bold title-font mb-5">Log In</h2>
+        <div class="relative mb-4">
+          <label for="full-name" class="leading-7 text-sm text-gray-800">User Name <span class="text-xs">(Its your email ID)</span></label>
+          <input placeholder="Name" name="email" type="text"
+            class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required>
+        </div>
+        <div class="relative mb-4">
+          <label for="password" class="leading-7 text-sm text-gray-800">Password</label>
+          <input placeholder="Password" name="password" type="password"
+            class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required>
+        </div>
+        <a href="/home" class="login">
+          <button class="login text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg"
+            >Login</button>
+        </a>
+        <h3>Dont have a account ?</h3>
+        <a class="text-blue-500 underline underline-offset-1" href="/signup">Create a new account</a>
+      </form>
+      <hr class="custom-hr">
+    </div>
+
+
+
+    <section class="box-container text-gray-600  body-font ">
+
+      <div class="container2 px-5 py-8 mx-auto flex flex-wrap">
+          <img src="/images/Group 2029.svg" alt="" class="no-space px-0">
+          <h1 class="text-4xl font-bold text-gray-800 no-space text-right px-0 pr-96">About SCHEMO</h1>
+
+        <div class="flex flex-col flex-wrap lg:py-6 mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
+          <div class="flex flex-col mb-10 lg:items-start items-center">
+            <div
+              class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-400 text-indigo-500 mb-5">
+              <img src="/images/problem.png" alt="" class="problem">
+
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-semibold mb-3">Problem</h2>
+              <p class="leading-relaxed text-base text-gray-900">In today’s India the government has done so much for
+                the wellbeing of the people of India, but the main problem is the awareness. People are not aware of
+                what is new that can help them come out of financial problem etc. This website allows a user to know
+                about various schemes - old or new so that as per their requirement they can make use of it and take
+                maximum benefit.
+              </p>
+              <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-col mb-10 lg:items-start items-center">
+            <img src="/images/question.png" alt="" class="question" width="50" , height="50">
+
+            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+            <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <div class="flex-grow">
+            <h2 class="text-gray-900 text-lg title-font font-semibold mb-3">What is SCHEMO ?</h2>
+            <p class="leading-relaxed text-base text-gray-900">The Schemo allows the user to know about various
+              governmental schemes launched by the Government of India. Thus large group of people can be benefited with
+              this, had it been any profession-student, farmer, business man and many others.</p>
+
+
+            </a>
+          </div>
+          <br>
+          <div class="flex flex-col mb-10 lg:items-start items-center">
+            <div
+              class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
+              <img src="/images/domain.png" alt="domain" class="domain">
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-semibold mb-3">Domains We Cover</h2>
+              <p class="leading-relaxed text-base text-gray-900">Student Scholarships,Schemes for farmers a(startup & businesses),Internships launched by the Government, Forgien Studies</p>
+              <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+  </section>
+  <!-- fott -->
+  <footer class="text-gray-400 bg-gray-900 body-font">
+    <div
+      class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+      <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+        <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+          <img src="/images/logo.png" alt="logo..." class="logo" height="75px" , width="75px">
+
+          <span class="ml-3 text-xl">SCHEMO</span>
+        </a>
+        <p class="mt-5 text-large text-gray-500 ">One for All !!</p>
+      </div>
+      <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">Main</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-400 hover:text-white">Home</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white" href="aboutpbl.html">About</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">Contact</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">Help</a>
+            </li>
+          </nav>
+        </div>
+
+
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-400 hover:text-white">Agriculture</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">Student</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">Business</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">Forgien Studies</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">Help Us!</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-400 hover:text-white">Funds</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">Donate</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">Become Our partner</a>
+            </li>
+
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="bg-gray-950 bg-opacity-75">
+      <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+        <p class="text-gray-400 text-sm text-center sm:text-left">© 2020 SCHEMO
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+          <a class="text-gray-400">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+              viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-400">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+              viewBox="0 0 24 24">
+              <path
+                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+              </path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-400">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-5 h-5" viewBox="0 0 24 24">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-400">
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+              <path stroke="none"
+                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
