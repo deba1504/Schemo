@@ -1,0 +1,6 @@
+body {
+    background: linear-gradient(110deg, orange, white, green); /* Gradient background */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: Arial, sans-serif; /* Set a default font family */
+}

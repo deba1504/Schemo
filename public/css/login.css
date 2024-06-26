@@ -1,0 +1,95 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: linear-gradient(110deg, orange, white, green); /* Gradient background */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: Arial, sans-serif; /* Set a default font family */
+}
+
+header {
+    position: fixed;
+    top: 0;
+   width: 100%;
+   margin-bottom: 200cm;
+  background-color: #ffffff; 
+    z-index: 1000; 
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed for spacing */
+    align-items: flex-start; /* Align items to the top */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    gap: 20px; /* Add space between elements */
+
+}
+
+/* Image styling to ensure it doesn't shrink */
+.image {
+    flex: 1 1 500px; /* Allow the image to grow and shrink */
+    max-width: 500px; /* Set a maximum width */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10rem;
+}
+
+/* Aligned form styles */
+.form {
+    
+    background-color: #fed7aa; /* bg-orange-200 */
+    border-radius: 0.5rem; /* rounded-lg */
+    padding: 2rem; /* p-8 */
+    display: flex; /* flex */
+    flex-direction: column; /* flex-col */
+    flex: 1 1 500px; /* Allow the form to grow and shrink */
+    max-width: 500px; /* Set a maximum width */
+    margin-bottom: 10rem;
+    margin-top: 4rem; 
+    /* margin: 2.5rem; */
+    justify-content: center;
+    /* align-items: center; */
+}
+
+/* Large screens (lg) */
+@media (min-width: 1024px) {
+    .aligned-form {
+        width: 33.3333%; /* 2/6 width */
+        margin-top: 0; /* Remove top margin */
+    }
+}
+
+/* Medium screens (md) */
+@media (min-width: 768px) {
+    .aligned-form {
+        width: 150%; /* 3/2 width */
+        margin-left: auto; /* md:ml-auto */
+        margin-top: 0; /* Remove top margin */
+    }
+}
+
+.custom-hr {
+    border: none;
+    height: 2px; /* Make the line thicker */
+    background: #333; /* Change color to ensure visibility */
+    margin: 20px 0; /* Add space around the line */
+}
+
+.box-container {
+    background-color: #ffffff; /* White background for contrast */
+    border: 1px solid #ccc; /* Light gray border */
+    border-top-right-radius: 10rem; /* Rounded corners */
+    /* padding: 2rem; Padding inside the box */
+    /* margin: 20px; Margin around the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+}
+
+.no-space {
+    margin: 0;
+    padding: 0;
+    display: block; /* Ensures no extra space for inline elements */
+    /* text-align: right; */
+    height: 500px;
+}
